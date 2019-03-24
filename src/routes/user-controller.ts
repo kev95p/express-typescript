@@ -2,7 +2,6 @@ import { Request, Response } from 'express';
 
 export class UserController{
     public getAll(req:Request,res:Response){
-        req.params()
         res.send("get all");
     }
 
